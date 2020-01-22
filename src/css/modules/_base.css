@@ -1,4 +1,6 @@
-body {}
+body {
+    font-family: 'sehnsucht', serif;
+}
 
 a {
     text-decoration: none;
