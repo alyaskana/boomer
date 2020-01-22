@@ -5,10 +5,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="./src/css/style.css">
     <title>BOOMER</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
 </head>
-<body>
-    <h1>BOOMER</h1>
+<body id="root" class="preloader-scroll-hidden-none">
+<!--    <div class="preloader preloader-visible" id="preloader"></div>-->
+    <div class="container">
+        <div class="navigation mob-navigation">
+            <div class="navigation-header mob-navigation-header">
+                <a href="index.html">
+                    <img src="./src/img/logo.svg" alt="logo">
+                </a>
+                <button class="btn link menu-show" id="btnShow">
+                    <img src="./src/img/icon/icon-menu.svg" alt="logo">
+                </button>
+            </div>
+            <nav class="navigation-menu mob-navigation-menu" id="navigation-menu">
+                <ul class="navigation-menu-list">
+                    <li class="navigation-menu-list__item">
+                        <a href="#">работы</a>
+                    </li>
+                    <li class="navigation-menu-list__item"><a href="#">команда</a></li>
+                    <li class="navigation-menu-list__item"><a href="#">биография</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="works">
+                <div class="works-item">
+                    <img src="./src/img/work/work-01.png" class="works-item__img" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./src/js/main.js"></script>
 </body>
 </html>

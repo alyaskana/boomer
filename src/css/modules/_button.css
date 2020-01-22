@@ -1,0 +1,11 @@
+.btn {
+    border: 1px solid transparent;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+.link {
+    padding: 0;
+}

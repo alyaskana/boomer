@@ -1,2 +1,9 @@
-@import "modules/menu.css";
+@import "modules/_preloader.css";
+@import "modules/_navigation/_navigation.css";
+@import "modules/_navigation/_mob-navigation.css";
+@import "modules/_pages/_works.css";
+@import "modules/_container.css";
+@import "modules/_content.css";
+@import "modules/_button.css";
+@import "modules/_base.css";
 @import "reset.css";
