@@ -1,7 +1,3 @@
-.preloader-scroll-hidden {
-    overflow: hidden;
-}
-
 .preloader-visible {
     background-color: goldenrod;
     z-index: 1001;

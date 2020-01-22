@@ -1,7 +1,29 @@
 .navigation {
-    width: 180px;
+    width: 220px;
     height: 100%;
 }
+
+.navigation-header-logo {
+    line-height: 0;
+}
+
+.navigation-header-line {
+    border: 1px solid #000;
+    background-color: #000;
+    width: 100%;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.navigation-menu {
+    padding-top: 60px;
+}
+
+.navigation-menu .navigation-menu-list__item {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 
 .navigation-header {
     border-bottom: 3px solid transparent;
@@ -13,15 +35,4 @@
 
 .navigation-header .menu-show {
     display: none;
-}
-
-/* navigation-menu */
-
-.navigation-menu {
-    padding-top: 60px;
-}
-
-.navigation-menu .navigation-menu-list__item {
-    font-size: 30px;
-    margin-bottom: 30px;
 }

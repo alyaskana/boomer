@@ -10,14 +10,17 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
 </head>
-<body id="root" class="preloader-scroll-hidden-none">
+<body id="root">
 <!--    <div class="preloader preloader-visible" id="preloader"></div>-->
     <div class="container">
         <div class="navigation mob-navigation">
             <div class="navigation-header mob-navigation-header">
-                <a href="index.html">
-                    <img src="./src/img/logo.svg" alt="logo">
-                </a>
+                <div class="navigation-header-logo">
+                    <a href="index.html">
+                        <img src="./src/img/logo.svg" alt="logo" class="logo" id="logo">
+                    </a>
+                    <div class="navigation-header-line" id="navigation-header-line"></div>
+                </div>
                 <button class="btn link menu-show" id="btnShow">
                     <img src="./src/img/icon/icon-menu.svg" alt="logo">
                 </button>
@@ -25,19 +28,27 @@
             <nav class="navigation-menu mob-navigation-menu" id="navigation-menu">
                 <ul class="navigation-menu-list">
                     <li class="navigation-menu-list__item">
-                        <a href="#">работы</a>
+                        <a href="#work" class="navigation-menu-list__item-link">работы</a>
                     </li>
-                    <li class="navigation-menu-list__item"><a href="#">команда</a></li>
-                    <li class="navigation-menu-list__item"><a href="#">биография</a></li>
+                    <li class="navigation-menu-list__item">
+                        <a href="#command" class="navigation-menu-list__item-link">команда</a>
+                    </li>
+                    <li class="navigation-menu-list__item">
+                        <a href="#biography" class="navigation-menu-list__item-link">биография</a>
+                    </li>
                 </ul>
             </nav>
         </div>
-        <div class="content">
-            <div class="works">
-                <div class="works-item">
-                    <img src="./src/img/work/work-01.png" class="works-item__img" alt="img">
+        <div class="content" id="content">
+            <div class="page work show-page" id="work">
+                <div class="work-item">
+                    <img src="./src/img/work/work-01.png" class="work-item__img" alt="img">
                 </div>
             </div>
+
+            <div class="page command" id="command"></div>
+
+            <div class="page biography" id="biography"></div>
         </div>
     </div>
 
